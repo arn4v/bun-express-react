@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
+    "composite": true,
+    "lib": ["ESNext"],
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": true,
+    "isolatedModules": true,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictFunctionTypes": true,
+    "moduleDetection": "force",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "downlevelIteration": true,
+    "jsx": "react-jsx",
+    "types": ["bun-types"]
+  },
+  "exclude": ["node_modules"]
+}
